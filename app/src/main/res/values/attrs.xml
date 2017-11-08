@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveView">
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:color"/>
+        <attr name="wRunDuration" format="integer"/>
+        <attr name="wCreateDuration" format="integer"/>
+        <attr name="wMaxRadiusRate" format="float"/>
+    </declare-styleable>
+</resources>
