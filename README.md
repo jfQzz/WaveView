@@ -1,8 +1,11 @@
 # WaveView
 自定义水波纹控件
-###简介
+### 简介
+
   这是一个自定义的水波纹，它是圆形扩展的，可以修改水波纹控件的文字，以及水波纹相关的属性。
-###集成步骤
+  
+### 集成步骤
+
 ####  在app的跟build.gradle下 （Add it in your root build.gradle at the end of repositories）:
       
      	allprojects {
