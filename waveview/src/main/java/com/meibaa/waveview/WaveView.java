@@ -1,4 +1,4 @@
-package com.meibaa.waveview.view;
+package com.meibaa.waveview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,8 +11,6 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
-
-import com.meibaa.waveview.R;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -78,8 +76,12 @@ public class WaveView extends View {
     }
 
 
-    public void setColor(int color) {
+    public void setWaveColor(int color) {
         this.mWaveColor = color;
+    }
+
+    public void setTxtColor(int color){
+        this.mTxtColor = color;
     }
 
     public void setText(String mark) {
