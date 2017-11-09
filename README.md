@@ -18,7 +18,7 @@
 #### 在app目录下的build.gradle的dependencies中添加如下引用（Add the dependency）：
 
     	dependencies {
-	        compile 'com.github.ZABone:WaveView:v1.0.1'
+	        compile 'com.github.ZABone:WaveView:v1.0.0'
 	}
 
     
